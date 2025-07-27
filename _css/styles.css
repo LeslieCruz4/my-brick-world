@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Margarine&display=swap');
+
+body {
+  background-color: yellowgreen;
+  background-image: url('/Users/lesliecruz/Library/Mobile Documents/com~apple~CloudDocs/My Transfer Classes/Spring 2025/CSUN/Art 301/bootstrap/_images/lego_background.jpg');
+  background-repeat: repeat-x;
+  background-size: auto;
+  background-position: top;
+  font-family: "Margarine", sans-serif;
+  font-weight: 200;
+}
+
+h1{
+color: black;
+}
+  h2, h3, h5 {
+  color: red;
+}
+
+.container, .container-fluid {
+  padding: 20px;
+}
+
+nav a {
+  display: block;
+  padding: 15px 0;
+  font-weight: bold;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+
+nav a:hover {
+  background-color: red;
+  color: white;
+  border-color: white;
+}
+.hero p {
+  color: black;
+}
+
+.logo {
+  width: 70px;
+  height: auto;
+  border-radius: 50%;
+  border: 2px solid black;
+  margin-right: 10px;
+  display: block;
+  margin: 0 auto;
+}
+
+.nav-link {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.navbar-dark .nav-link {
+  color: #fff;
+}
+
+.navbar-dark .nav-link:hover {
+  color: red;
+}
+
+footer {
+  background-color: black;
+  color: #fff;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+.btn-warning {
+  font-weight: bold;
+}
+
+.card-title {
+  font-weight: bold;
+}
+
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.card {
+  border-radius: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  border: none;
+}
+
+.shadow {
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.hero {
+  background-image: url('/Users/lesliecruz/Library/Mobile Documents/com~apple~CloudDocs/My Transfer Classes/Spring 2025/CSUN/Art 301/bootstrap/_images/lego_background.jpg')
+  background-repeat: repeat-x;
+  background-size: cover;
+  background-position: top;
+  min-height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-img-top {
+  height: 370px;
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+
+.btn {
+  min-width: 140px;
+  font-weight: bold;
+  font-family: "Margarine", sans-serif;
+  border-radius: 12px;
+}
+
+
+video {
+  border-radius: 10px;
+  max-width: 100%;
+  height: auto;
+  align-items: center;
+}
+
+@media (max-width: 1399.98px) {
+
+}
+@media (max-width: 1199.98px) {
+
+}
+@media (max-width: 991.98px) {
+
+}
+@media (max-width: 767.98px) {
+
+}
+@media (max-width: 575.98px) {
+
+}
